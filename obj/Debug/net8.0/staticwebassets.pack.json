@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\CSS\\estilos.css",
+      "PackagePath": "staticwebassets\\CSS\\estilos.css"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\CSS\\site.css",
+      "PackagePath": "staticwebassets\\CSS\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\entretenimiento.png",
+      "PackagePath": "staticwebassets\\img\\entretenimiento.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\impuestos.png",
+      "PackagePath": "staticwebassets\\img\\impuestos.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\salud.png",
+      "PackagePath": "staticwebassets\\img\\salud.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\servicios.png",
+      "PackagePath": "staticwebassets\\img\\servicios.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\supermercado.png",
+      "PackagePath": "staticwebassets\\img\\supermercado.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\varios.png",
+      "PackagePath": "staticwebassets\\img\\varios.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\img\\voler.png",
+      "PackagePath": "staticwebassets\\img\\voler.png"
+    },
+    {
+      "Id": "C:\\Users\\MATEO\\final\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.final.props",
+      "PackagePath": "build\\final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.final.props",
+      "PackagePath": "buildMultiTargeting\\final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.final.props",
+      "PackagePath": "buildTransitive\\final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.final.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

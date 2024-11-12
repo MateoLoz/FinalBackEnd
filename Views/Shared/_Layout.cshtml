@@ -1,0 +1,34 @@
+@{
+	ViewBag.Title = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WalletWise</title>
+		<meta charset="UTF-8">
+		    <link rel="stylesheet" href="~/CSS/site.css">
+	</head>
+	<body class="body">
+
+	<nav>
+        <div class="agregar">
+        <a asp-controller="App" asp-action="Edit" class="btn">Agregar</a>
+        </div>
+        <div class="img">
+        <img class="nav-img" src="~/img/logo.png" alt="logo">
+        </div>
+        <div class="Nombre">
+        <p>WalletWise</p>
+        </div>
+        
+    </nav>
+
+		
+		@RenderBody()
+
+		
+	</body>
+</html>

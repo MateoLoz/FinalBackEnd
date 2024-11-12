@@ -1,0 +1,54 @@
+@model GastosViewModel
+
+
+@{
+	ViewBag.Title = "Editar Gastos";
+}
+
+<link rel="stylesheet" href="~/CSS/estilos.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+
+
+<div>
+
+<div class="footer-go-back">
+		<a class="go-back" asp-controller="App" asp-action="Index"> <img class="img-go" src="~/img/voler.png"  /></a>
+	</div>
+<!-- <div asp-validation-summary=""></div> -->
+
+
+<div class="form-container">
+<form method="POST">
+        <div class="form">
+            <img src="~/img/logo.png" alt="Logo WalletWise">
+            <div class="grupo">
+                <input type="text"  asp-for="Descripcion"><span class="barra"></span>
+				<span class="wrong" asp-validation-for="Descripcion"></span>
+                <label asp-for="Descripcion">Descripcion</label>
+            </div>
+            <div class="grupo">
+                <input type="text" asp-for="Monto"><span class="barra"></span>
+				<span class="wrong" asp-validation-for="Monto"></span>
+                <label  asp-for="Monto">Monto</label>
+            </div>
+            <div class="grupo">
+			
+            <select asp-for="Categoria">
+	          <option value="Varios" selected>Varios</option>
+	          <option value="Supermercado" >Supermercado</option>
+	          <option value="Impuestos" >Impuestos</option>
+	          <option value="Servicios" >Servicios</option>
+	          <option value="Salud" >Salud</option>
+	           <option value="Entretenimiento" >Entretenimineto</option>
+	           </select>
+			<span asp-validation-for="Categoria"></span>
+				
+                
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+		
+
+</div>
